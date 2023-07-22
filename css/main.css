@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-weight: verdana, Geneva;
+}
+
+h1{
+    font-size: 1.5vw;
+    text-align:  center;
+}
+header{
+    background-color: black;
+    color: white;
+    width: 100%;
+}
+.nav{
+    background-color: gray;
+    color: white;
+    border-radius: 5px;
+    margin: 0.3%;
+    padding: 0.3%;
+    font-size: 1.0vw;
+    text-decoration: none;
+    left: 0;
+    
+}
+.imgindex,.imgabout{
+    width: 20%;
+}
+h2{
+    font-size: 1.5vw
+}
+h3{
+    font-size: 1.0vw;
+}
+
+p{
+    font-size: 1.0vw;
+    font-family: Arial, Helvetica, sans-serif;
+}
+footer{
+    background-color:black;
+    color: white;
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    padding: 20px;
+    height: 10px;
+    margin-top: 0;
+}
+.redsoc {
+    color: white;
+    font-size: 1.0vw;
+    text-align: center;
+}
+
+.redsoc a {
+    color: #000000;
+    margin: 0px, 6px;
+    font-size: 2vw;
+}
+.img-cliente{
+    width: 20%;
+    margin-left: 10%;
+}
+
+label,input{
+    font-size: 1.0vw;
+}
+
+ input[type=text],input[type=date],
+ input[type=number],input[type=text], select {
+   width: 80%;
+   padding: 1vw;
+   margin: 1vw;
+   display: inline-block;
+   border: 1vw;
+   border-radius: 4px;
+   box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.formulario {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 2%;
+    margin: 1% 20%;
+    
+}
+
